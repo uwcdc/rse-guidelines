@@ -29,6 +29,26 @@ you can use the [conventional-pre-commit](https://github.com/compilerla/conventi
         args: [] # optional: list of Conventional Commits types to allow e.g. [feat, fix, ci, chore, test]
 ```
 
+## Set a default git commit message with these guidelines
+
+If you want reminders of these guidelines every time you commit, you set [this git message](../resources/gitmessage) as the default you see when you run `git commit` by running the following commands
+
+```sh
+curl https://raw.githubusercontent.com/uw-ssec/rse-guidelines/main/resources/gitmessage > ~/.gitmessage
+git config --global commit.template ~/.gitmessage
+```
+
+
+
+<details>
+  <summary>
+    See what this will look like when you run git commit
+  </summary>
+
+  ![git message preview](../assets/images/git-message-template.png)
+
+</details>
+
 ## Types
 
 The following types of commits are acceptable:

@@ -1,0 +1,39 @@
+<type>[optional scope]: <description>
+
+[optional body]
+
+---
+
+[optional footer(s)]
+
+# Types
+#   feat     - Introduces a new feature to the codebase
+#   fix      - A bug fix for the codebasr
+#   docs     - A documentation only change
+#   style    - Changes that do not affect the meaning of the code   
+#   refactor - A code change that neither fixes a bug nor adds a feature
+#   perf     - A code change that improves performance
+#   test     - Adds missing tests or corrects existing tests
+#   build    - Changes that affect the build system or external 
+#              dependencies
+#   ci       - Changes to our CI configuration files & scripts
+#   chore    - Other changes that don't modify src or test files
+#   revert   - Reverts a previous commit
+#
+# Description
+#   The description of the commit should be short and sweet, using 
+#   imperative tense of description of the change.
+# 
+#   Action verbs like "fixes", "adds", "cleans" is great!
+#
+# Scope (optional)
+#   Adds more specificity to which component was changed (eg. api, site)
+#
+# Body (optional)
+#   Adds longer description of change, if needed
+#
+# Footer (optional)
+#   Additional, specific descriptions of the change. Follows the format
+#   "token: value"
+#   
+#   For breaking changes, use "BREAKING CHANGE: <description>"
