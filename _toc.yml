@@ -17,6 +17,10 @@ parts:
         - file: fundamentals/computing-development-environments/docker
         - file: fundamentals/computing-development-environments/pixi
         - file: fundamentals/computing-development-environments/notebooks-interactive-environments
+    - file: fundamentals/code-collaboration-tools
+      sections:
+        - file: fundamentals/code-collaboration-tools/github-codespaces
+        - file: fundamentals/code-collaboration-tools/vscode-liveshare
   - caption: Advanced
     chapters:
     - file: advanced/deployment-strategies-tools/index
